@@ -33,6 +33,12 @@ for number in [1, 2, 3, 4, 5]:
 
 # class_average.py
 """Class average program with sequence-controlled iteration."""
+"""Consider the following requirements statement:
+
+A class of ten students took a quiz. Their grades (integers in the range 0 – 100) are
+98, 76, 71, 87, 83, 90, 57, 79, 82, 94. Determine the class average on the quiz.
+The following script for solving this problem keeps a running total of the grades, calculates
+the average and displays the result. """
 
 # initialization phase
 total = 0 # sum of grades
