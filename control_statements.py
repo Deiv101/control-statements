@@ -16,3 +16,8 @@ list = [2, -3, 0, 17, 9]
 for number in list:
     total = total + number 
     print(total, '\t', end='')
+
+#________________________________________________________________________________________________________
+for counter in range(10):
+    print(counter, end=' ')
+
