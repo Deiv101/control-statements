@@ -83,6 +83,7 @@ print(f'{amount:.5f}')
 #___________________________________________________________________________________________________________________________________________________________________
 # Compund-Interest Calculation
 """We will compute compound interest using the Decimal type for precise monetary calculation."""
+
 # Problem Statement
 """A person invests $1000 in a savings account yielding 5% interest. Assuming that
 the person leaves all interest on deposit in the account, calculate and display the
@@ -96,3 +97,11 @@ r is the annual interest rate,
 n is the number of years and
 a is the amount on deposit at the end of the nth year
 """
+
+# Calculation
+principal = 1000
+rate = 0.05
+n = year = 0
+for year in range(1, 11):
+    amount = principal * (1 +rate) ** year
+    print(f'{year:>2}{amount:>10.2f}')
