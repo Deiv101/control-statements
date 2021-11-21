@@ -121,3 +121,9 @@ for n in range(10):
     print(n, end= ' ')
 
 #___________________________________________________________________________________________________________________________________________________________________
+# Random-number Generation
+"""Rolling a Six-Sided Die"""
+import random
+
+for roll in range(10):
+    print(random.randrange(1, 7), end= ' ')
