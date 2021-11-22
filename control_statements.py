@@ -125,7 +125,7 @@ for n in range(10):
 """Rolling a Six-Sided Die"""
 import random
 
-from functions_tutorial import my_function
+#from functions_tutorial import my_function
 
 for roll in range(10):
     print(random.randrange(1, 7),'\n')
@@ -176,7 +176,7 @@ print(f'{6:>4}{freq6:>13}')
 """
 You roll two six-sided dice, each with faces containing one, two, three, four, five
 and six spots, respectively. When the dice come to rest, the sum of the spots on the 
-two upward faces is calculated. if the sum is 7 or 11 on the first roll, you win. If
+two upward faces is calculated. If the sum is 7 or 11 on the first roll, you win. If
 the sum is 2, 3 or 12 on the first roll (called "craps"), you lose (i.e., the "house" 
 wins). If the sum is 4, 5, 6, 8, 9 or 10 on the first rill, that sum becomes your 
 "point". To win, you must continue  rolling the dice until you "make your point" (i.e.,
@@ -198,7 +198,7 @@ def roll_dice():
 def display_dice(dice):
     """Display one roll of the dice."""
     die1, die2 = dice # unpack the tuple into variables die1 and die2
-    print(f'Player rolled {die1} +{die2} = {sum(dice)}')
+    print(f'Player rolled {die1} + {die2} = {sum(dice)}')
 
 die_values = roll_dice() # first roll
 display_dice(die_values)
