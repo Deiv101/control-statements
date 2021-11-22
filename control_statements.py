@@ -206,3 +206,5 @@ sum_of_dice =sum(die_values)
 
 if sum_of_dice in (7, 11): # win
     game_status = 'WON'
+elif sum_of_dice in (2, 3, 12): # lose
+    game_status = 'LOST'
