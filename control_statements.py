@@ -125,6 +125,8 @@ for n in range(10):
 """Rolling a Six-Sided Die"""
 import random
 
+from functions_tutorial import my_function
+
 for roll in range(10):
     print(random.randrange(1, 7),'\n')
 
@@ -208,3 +210,7 @@ if sum_of_dice in (7, 11): # win
     game_status = 'WON'
 elif sum_of_dice in (2, 3, 12): # lose
     game_status = 'LOST'
+else: # for point
+    game_status = 'CONTINUE'
+    my_point =sum_of_dice
+    print('Point is', my_point)
