@@ -143,7 +143,7 @@ freq5 = 0
 freq6 = 0
 
 # 6,000,000 die rolls
-for roll in range(6_000_000): # note inderscore separators
+for roll in range(6_000_000): # note underscore separators
     face = random.randrange(1, 7)
 
     # increment appropriate face counter
@@ -167,3 +167,29 @@ print(f'{3:>4}{freq3:>13}')
 print(f'{4:>4}{freq4:>13}')
 print(f'{5:>4}{freq5:>13}')
 print(f'{6:>4}{freq6:>13}')
+
+#___________________________________________________________________________________________________________________________________________________________________
+# CASE STUDY: A GAME OF CHANCE
+# SYNOPSIS
+"""
+You roll two six-sided dice, each with faces containing one, two, three, four, five
+and six spots, respectively. When the dice come to rest, the sum of the spots on the 
+two upward faces is calculated. if the sum is 7 or 11 on the first roll, you win. If
+the sum is 2, 3 or 12 on the first roll (called "craps"), you lose (i.e., the "house" 
+wins). If the sum is 4, 5, 6, 8, 9 or 10 on the first rill, that sum becomes your 
+"point". To win, you must continue  rolling the dice until you "make your point" (i.e.,
+roll that same point value). You lose by rolling a 7 before making your point.
+"""
+
+# Execution
+# fig04_02.py
+"""Simulating the dice game Craps."""
+
+import random
+
+def roll_dice():
+    """Roll two dice and rreturn their face values as a tuple"""
+    die1 = random.randrange(1, 7)
+    die2 = random.randrange(1, 7)
+    return (die1, die2) # pack die face values into a tuple
+
