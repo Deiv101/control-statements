@@ -199,3 +199,4 @@ def display_dice(dice):
     print(f'Player rolled {die1} +{die2} = {sum(dice)}')
 
 die_values = roll_dice() # first roll
+display_dice(die_values)
