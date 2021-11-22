@@ -214,3 +214,9 @@ else: # for point
     game_status = 'CONTINUE'
     my_point =sum_of_dice
     print('Point is', my_point)
+
+# Continue rolling until player wins or loses
+while game_status == 'CONTINUE':
+    die_values = roll_dice()
+    display_dice(die_values)
+    sum_of_dice = sum(die_values)
