@@ -220,3 +220,8 @@ while game_status == 'CONTINUE':
     die_values = roll_dice()
     display_dice(die_values)
     sum_of_dice = sum(die_values)
+
+    if sum_of_dice == my_point: # win by making point
+        game_status = 'WON'
+    elif sum_of_dice == 7: # lose by rolling 7
+        game_status = 'LOST'
