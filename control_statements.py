@@ -231,3 +231,13 @@ if game_status == 'WON':
     print('Player wins')
 else:
     print('Player loses')
+
+
+#___________________________________________________________________________________________________________________________________________________________________
+# Counting the Number of Occurrences of an Item- using Count
+
+responses = [1, 2, 2, 3, 2, 1, 3, 3, 4, 1, 4, 2, 2, 3, 1, 1, 4, 3, 2, 1, 1, 1]
+
+for i in range(1, 5):
+    print(f'{i} appears {responses.count(i)} times in responses.')
+    
