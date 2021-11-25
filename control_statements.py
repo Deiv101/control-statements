@@ -242,6 +242,11 @@ import numpy as np
 import random
 import seaborn as sns
 
+# Rolling the die and calculating Frequencies
+# List comprehension
+
+
+
 #___________________________________________________________________________________________________________________________________________________________________
 # Counting the Number of Occurrences of an Item- using Count
 
