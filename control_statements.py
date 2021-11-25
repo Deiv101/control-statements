@@ -253,7 +253,8 @@ sns.set_style('darkgrid')
 axes = sns.barplot(x=values, y=frequencies, palette=True)
 
 # Setting the Window Title and Labeling the x- and y-axes
-
+axes.set_tile(title)
+axes.set(xlabel='Die Value', ylabel='Frequency')
 
 
 #___________________________________________________________________________________________________________________________________________________________________
