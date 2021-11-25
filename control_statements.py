@@ -235,7 +235,7 @@ else:
 #___________________________________________________________________________________________________________________________________________________________________
 # Visualizing Die-Roll Frequencies and Percentage
 # Launching IPython for Interactive Matplotlib Development
-
+#ipython --matplotlib
 
 #___________________________________________________________________________________________________________________________________________________________________
 # Counting the Number of Occurrences of an Item- using Count
