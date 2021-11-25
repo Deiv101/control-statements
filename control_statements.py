@@ -249,7 +249,8 @@ values, frequencies = np.unique(rolls, return_counts=True)
 
 # Creating the initial Bar Plot
 title = f'Rolling a Six-Sided Die {len(rolls):,} Times'
-
+sns.set_style('darkgrid')
+axes = sns.barplot(x=values, y=frequencies, palette=True)
 
 
 
