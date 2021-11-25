@@ -247,6 +247,7 @@ import seaborn as sns
 rolls = [random.randrange(1, 7) for i in range(600)]
 values, frequencies = np.unique(rolls, return_counts=True)
 
+# Creating the initial Bar Plot
 
 
 
