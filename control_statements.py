@@ -263,7 +263,7 @@ for bar, frequency in zip(axes.patches, frequencies):
     text_x = bar.get_x() + bar.get_width() / 2.0
     text_y = bar.get_height()
     text = f'{frequency:,}\n{frequency / len(rolls):.3%}'
-    axes.text(text_x, text_y, text, fontsize=11, ha='center', va=bottom)
+    axes.text(text_x, text_y, text, fontsize=11, ha='center', va='bottom')
 
 #___________________________________________________________________________________________________________________________________________________________________
 # Counting the Number of Occurrences of an Item- using Count
