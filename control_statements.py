@@ -248,6 +248,8 @@ rolls = [random.randrange(1, 7) for i in range(600)]
 values, frequencies = np.unique(rolls, return_counts=True)
 
 # Creating the initial Bar Plot
+title = f'Rolling a Six-Sided Die {len(rolls):,} Times'
+
 
 
 
